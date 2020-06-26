@@ -1,5 +1,6 @@
 class EmailAddressParser
   parser = EmailAddressParser.new
+  attr_accessor
 
 end
 
