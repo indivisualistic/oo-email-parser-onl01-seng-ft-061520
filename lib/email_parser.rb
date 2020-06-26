@@ -1,4 +1,4 @@
-lass EmailParser
+class EmailParser
 attr_accessor :emails
 
 def initialize(email)
@@ -9,7 +9,6 @@ def parse
   emails.delete(',').split.uniq
 end
 
-end
 end
 
 
